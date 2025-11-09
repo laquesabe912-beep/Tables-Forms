@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    </head>
+    <body>
+        <h1>Simple Form and Table</h1>
+        <!--Autocomplete on entire form-->
+<form action="submit" method ="post">
+    <label for="Full_Name">Full Name:</label>
+    <br>
+    <input type="text" id="Full_Name" name="Full Name" required>
+    <label for="Email_Address">Email Address:</label>
+    <br>
+    <input type="email" id="Email Address"name="Email_Address" required>
+    <br>
+    <label for ="Message">Message:</label>
+    <br>
+    <textarea id="Message" name="Message" rows="4" cols="50"></textarea>
+    <br>
+    <input type="Submit" value="Submit">
+    </form>
+    <section>
+        <table>
+            <caption>Simple Data Ta<ble/caption>
+                <thead>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Forks</td>
+                        <td>10</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
+                        <td>Knives</td>
+                        <td>5</td>
+                        <td>$.50</td>
+                    </tr>
+                    <tr>
+                        <td>Spoons</td>
+                        <td>10</td>
+                        <td>$.50</td>
+                    </tr>
+                </tbody>
+        </table>
+    </section>
+
+    </body>
+</html>
